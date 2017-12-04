@@ -87,7 +87,7 @@ public class XmlToJavaDOM {
               }
               
               if(eElement.getElementsByTagName("PRODUCT_TYPE").item(0)!=null){
-            	  managementIP  = eElement.getElementsByTagName("PRODUCT_TYPE").item(0).getTextContent();
+            	  product_Type  = eElement.getElementsByTagName("PRODUCT_TYPE").item(0).getTextContent();
               }
               
               if(eElement.getElementsByTagName("SERVICE").item(0)!=null){
